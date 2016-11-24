@@ -1,12 +1,17 @@
 //
 //  RBViewController.h
-//  PuddingVideoSDK
+//  RBVideoSDK
 //
-//  Created by zhiyu330691038 on 11/22/2016.
-//  Copyright (c) 2016 zhiyu330691038. All rights reserved.
+//  Created by zhikuiyu on 05/27/2016.
+//  Copyright (c) 2016 zhikuiyu. All rights reserved.
 //
 
+
 @import UIKit;
+@class  RBLiveVideoClient;
+
+RBLiveVideoClient * videoClient;
+
 
 @interface RBViewController : UIViewController
 

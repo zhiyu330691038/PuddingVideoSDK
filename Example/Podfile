@@ -1,8 +1,9 @@
 use_frameworks!
 
 target 'PuddingVideoSDK_Example' do
-  pod 'PuddingVideoSDK', :path => '../'
-
+    pod 'PuddingVideoSDK', :path => '../'
+#    pod 'RooboSDK', :path => '/Users/zky/RooboSDK'
+    pod 'PuddingSDK', '~> 0.0.3'
   target 'PuddingVideoSDK_Tests' do
     inherit! :search_paths
 

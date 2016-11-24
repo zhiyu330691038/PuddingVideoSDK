@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3831AD1B1DE6EF6E009EF25E /* UIViewController+RBtip.m in Sources */ = {isa = PBXBuildFile; fileRef = 3831AD1A1DE6EF6E009EF25E /* UIViewController+RBtip.m */; };
+		389CC0F61DE6D7E6008E17D5 /* RBVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389CC0F51DE6D7E6008E17D5 /* RBVideoViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,8 +39,13 @@
 
 /* Begin PBXFileReference section */
 		2C0C1124D04DEB9C88A95145 /* Pods-PuddingVideoSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuddingVideoSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PuddingVideoSDK_Example/Pods-PuddingVideoSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3936413CA515B6153DB78B2F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		53CA95BD752FBB933572A0F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		38243A5F1DE696BE004A576A /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		3831AD191DE6EF6E009EF25E /* UIViewController+RBtip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RBtip.h"; sourceTree = "<group>"; };
+		3831AD1A1DE6EF6E009EF25E /* UIViewController+RBtip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RBtip.m"; sourceTree = "<group>"; };
+		389CC0F41DE6D7E6008E17D5 /* RBVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBVideoViewController.h; sourceTree = "<group>"; };
+		389CC0F51DE6D7E6008E17D5 /* RBVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBVideoViewController.m; sourceTree = "<group>"; };
+		3936413CA515B6153DB78B2F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		53CA95BD752FBB933572A0F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PuddingVideoSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuddingVideoSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,7 +68,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9EF96E1608B210AA6780DCDE /* Pods_PuddingVideoSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PuddingVideoSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0FC99ED17BD802C732E24A2 /* Pods-PuddingVideoSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuddingVideoSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PuddingVideoSDK_Example/Pods-PuddingVideoSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B0EEFDC19E67C924351D9912 /* PuddingVideoSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PuddingVideoSDK.podspec; path = ../PuddingVideoSDK.podspec; sourceTree = "<group>"; };
+		B0EEFDC19E67C924351D9912 /* PuddingVideoSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PuddingVideoSDK.podspec; path = ../PuddingVideoSDK.podspec; sourceTree = "<group>"; };
 		B3CC43B16E7474B2DEE18F17 /* Pods-PuddingVideoSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuddingVideoSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PuddingVideoSDK_Tests/Pods-PuddingVideoSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C10722CD6172E86E58E15466 /* Pods_PuddingVideoSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PuddingVideoSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A39417664B8AB532C2F9EC /* Pods-PuddingVideoSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuddingVideoSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PuddingVideoSDK_Tests/Pods-PuddingVideoSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +135,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				38243A5F1DE696BE004A576A /* libstdc++.6.0.9.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -148,6 +156,10 @@
 				6003F5A6195388D20070C39A /* RBViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				389CC0F41DE6D7E6008E17D5 /* RBVideoViewController.h */,
+				389CC0F51DE6D7E6008E17D5 /* RBVideoViewController.m */,
+				3831AD191DE6EF6E009EF25E /* UIViewController+RBtip.h */,
+				3831AD1A1DE6EF6E009EF25E /* UIViewController+RBtip.m */,
 			);
 			name = "Example for PuddingVideoSDK";
 			path = PuddingVideoSDK;
@@ -247,6 +259,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhiyu330691038;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 8WHZ7G4S7Z;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -320,7 +335,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		973BA431C351AFE6F1DBB61D /* [CP] Embed Pods Frameworks */ = {
@@ -350,7 +365,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		D39249C1087D4BCD150FAEB3 /* [CP] Copy Pods Resources */ = {
@@ -390,9 +405,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				389CC0F61DE6D7E6008E17D5 /* RBVideoViewController.m in Sources */,
 				6003F59E195388D20070C39A /* RBAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* RBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				3831AD1B1DE6EF6E009EF25E /* UIViewController+RBtip.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,12 +530,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 8WHZ7G4S7Z;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PuddingVideoSDK/PuddingVideoSDK-Prefix.pch";
 				INFOPLIST_FILE = "PuddingVideoSDK/PuddingVideoSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.3;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -529,12 +550,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 8WHZ7G4S7Z;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PuddingVideoSDK/PuddingVideoSDK-Prefix.pch";
 				INFOPLIST_FILE = "PuddingVideoSDK/PuddingVideoSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.3;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

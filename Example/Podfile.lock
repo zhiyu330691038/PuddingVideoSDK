@@ -1,0 +1,19 @@
+PODS:
+  - PuddingSDK (0.0.3)
+  - PuddingVideoSDK (1.0.0)
+
+DEPENDENCIES:
+  - PuddingSDK (~> 0.0.3)
+  - PuddingVideoSDK (from `../`)
+
+EXTERNAL SOURCES:
+  PuddingVideoSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PuddingSDK: f4c0f3cdb5e798231c1aacad9adfd503f289028a
+  PuddingVideoSDK: 8ae5ce0e56ef874dec64c486ba32873f0ed8d4c8
+
+PODFILE CHECKSUM: 65a2ca95a1e07f4ea29b25cff838a8b7a03ca44c
+
+COCOAPODS: 1.2.0.beta.1

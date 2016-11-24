@@ -1,42 +1,26 @@
-#
-# Be sure to run `pod lib lint PuddingVideoSDK.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = 'PuddingVideoSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of PuddingVideoSDK.'
+s.name             = 'PuddingVideoSDK'
+s.version          = '1.0.0'
+s.summary          = '北京智能管家视频sdk 静态库.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+s.platform = :ios, "9.0"
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description      = <<-DESC
+TODO: 北京智能管家视频sdk.
+DESC
+s.requires_arc    = true
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/PuddingVideoSDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhiyu330691038' => 'zky_416@sina.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/PuddingVideoSDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         = 'git@github.com:RooboMobile/PuddingVideoSDK.git'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'zhikuiyu' => 'zky_416@sina.com' }
+s.source           = { :git => 'git@github.com:RooboMobile/PuddingVideoSDK.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '7.0'
 
-  s.source_files = 'PuddingVideoSDK/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'PuddingVideoSDK' => ['PuddingVideoSDK/Assets/*.png']
-  # }
+s.source_files = 'PuddingVideoSDK/Classes/**/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.vendored_libraries = 'PuddingVideoSDK/Assets/*.a'
+s.libraries = 'icucore','bz2','z','c++','iconv'
+s.frameworks = 'UIKit', 'MapKit','AVFoundation','WebKit','AudioToolBox','MediaPlayer','OpenGLES','GLKit','SystemConfiguration','CoreMedia','CoreVideo','MobileCoreServices','VideoToolbox'
 end
+
