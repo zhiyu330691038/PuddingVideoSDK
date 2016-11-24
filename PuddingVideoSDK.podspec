@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'PuddingVideoSDK'
-s.version          = '1.0.0'
+s.version          = '1.0.1'
 s.summary          = '北京智能管家视频sdk 静态库.'
 
 s.platform = :ios, "9.0"
@@ -13,7 +13,7 @@ s.requires_arc    = true
 s.homepage         = 'git@github.com:RooboMobile/PuddingVideoSDK.git'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'zhikuiyu' => 'zky_416@sina.com' }
-s.source           = { :git => 'git@github.com:RooboMobile/PuddingVideoSDK.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/RooboMobile/PuddingVideoSDK.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '7.0'
 
