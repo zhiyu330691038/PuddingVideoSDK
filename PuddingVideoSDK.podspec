@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'PuddingVideoSDK'
-s.version          = '1.0.1'
+s.version          = '1.0.2'
 s.summary          = '北京智能管家视频sdk 静态库.'
 
 s.platform = :ios, "9.0"

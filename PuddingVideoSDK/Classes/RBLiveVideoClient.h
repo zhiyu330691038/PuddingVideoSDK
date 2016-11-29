@@ -84,7 +84,12 @@
  */
 @property(nonatomic,assign) float   connectProgress;
 
-
+/**
+ *  @author 智奎宇, 16-11-29 20:11:57
+ *
+ *  摄像头方向是横向 模式是yes
+ */
+@property(nonatomic,assign) BOOL    cameraIsLandscape;
 /**
  *  @author 智奎宇, 16-11-23 17:11:38
  *
@@ -98,6 +103,8 @@
  */
 + (RBLiveVideoClient *)getInstanse:(NSString *)appkey AppID:(NSString *)appId Client:(NSString *)clientType;
 
+
+- (Boolean)working;
 /**
  *  @author 智奎宇, 16-11-23 17:11:54
  *
