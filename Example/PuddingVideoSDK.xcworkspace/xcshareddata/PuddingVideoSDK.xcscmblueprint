@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D64D9CDBDAC6EDEB768CE7FF821A64F589C81044",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D64D9CDBDAC6EDEB768CE7FF821A64F589C81044" : 0,
+    "BE7601E1692203790E2945B037C611277D06B3E1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C4AAEED6-E26D-48D1-8122-28460FC53239",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D64D9CDBDAC6EDEB768CE7FF821A64F589C81044" : "PuddingVideoSDK\/",
+    "BE7601E1692203790E2945B037C611277D06B3E1" : "..\/RooboSDK"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PuddingVideoSDK",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/PuddingVideoSDK.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.365jiating.com:baxiang1\/RooboSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BE7601E1692203790E2945B037C611277D06B3E1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:RooboMobile\/PuddingVideoSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D64D9CDBDAC6EDEB768CE7FF821A64F589C81044"
+    }
+  ]
+}

@@ -12,7 +12,7 @@
 #import <RooboSDK/RBDeviceApi.h>
 #import <RooboSDK/RBUserModel.h>
 #import <RooboSDK/RBUserModel.h>
-
+#import "RBLiveVideoClient+Config.h"
 #import "RBVideoViewController.h"
 
 @interface RBViewController ()<UITextFieldDelegate,UITableViewDelegate,UITableViewDataSource>{
@@ -33,6 +33,10 @@
     videoClient = [RBLiveVideoClient getInstanse:@"appkey" AppID:@"appid" Client:@"pudding"];
     float width = [UIScreen mainScreen].bounds.size.width;
     
+    
+//    [RBLiveVideoClient setLogModle:RBLogBase];
+//    [RBLiveVideoClient userInfo:@"ps:58cb4143bbdfe51eceb4bfe4ea2c27b1" Token:@"9a1fa150b23bb4de0f4d5b4aba3ae2b5"];
+    
     UIView * vi  =[[UIView alloc]initWithFrame:CGRectMake(0, 0, width, 64)];
     vi.backgroundColor = [UIColor colorWithRed:97/255.0 green:212/255.0 blue:255/255.0 alpha:1];
     [self.view addSubview:vi];
@@ -47,6 +51,10 @@
     
     _tableview.delegate = self;
     _tableview.dataSource = self;
+    
+    
+    [videoClient connect];
+
 
 }
 

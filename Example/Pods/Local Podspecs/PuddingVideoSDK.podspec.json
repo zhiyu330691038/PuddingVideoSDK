@@ -1,13 +1,13 @@
 {
   "name": "PuddingVideoSDK",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "北京智能管家视频sdk 静态库.",
   "platforms": {
     "ios": "7.0"
   },
   "description": "TODO: 北京智能管家视频sdk.",
   "requires_arc": true,
-  "homepage": "git@git.365jiating.com:zhikuiyu/RBVideoLib.git",
+  "homepage": "git@github.com:RooboMobile/PuddingVideoSDK.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -16,8 +16,8 @@
     "zhikuiyu": "zky_416@sina.com"
   },
   "source": {
-    "git": "git@git.365jiating.com:zhikuiyu/RBVideoLib.git",
-    "tag": "1.0.0"
+    "git": "https://github.com/RooboMobile/PuddingVideoSDK.git",
+    "tag": "1.0.1"
   },
   "source_files": "PuddingVideoSDK/Classes/**/*",
   "vendored_libraries": "PuddingVideoSDK/Assets/*.a",

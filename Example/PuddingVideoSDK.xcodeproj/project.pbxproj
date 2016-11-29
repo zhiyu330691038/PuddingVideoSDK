@@ -154,12 +154,12 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* RBViewController.h */,
 				6003F5A6195388D20070C39A /* RBViewController.m */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
-				6003F594195388D20070C39A /* Supporting Files */,
 				389CC0F41DE6D7E6008E17D5 /* RBVideoViewController.h */,
 				389CC0F51DE6D7E6008E17D5 /* RBVideoViewController.m */,
 				3831AD191DE6EF6E009EF25E /* UIViewController+RBtip.h */,
 				3831AD1A1DE6EF6E009EF25E /* UIViewController+RBtip.m */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for PuddingVideoSDK";
 			path = PuddingVideoSDK;

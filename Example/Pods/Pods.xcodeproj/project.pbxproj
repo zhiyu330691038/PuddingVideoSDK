@@ -16,18 +16,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1CA806C8A17279A0A6F803F600A638D5 /* RBLiveVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBLiveVideoDelegate.h; sourceTree = "<group>"; };
+		0AE9747F96C548C1C3C6C0A9501326D4 /* RBVideoEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBVideoEvent.h; sourceTree = "<group>"; };
+		2E41E744CB7AB3F52C2A0135C554C79E /* RBLiveVideoClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBLiveVideoClient.h; sourceTree = "<group>"; };
 		3BDCC84E07908E9A84D373DD0DF450AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49040A74E1C21A2DBBC87D7E53EFC002 /* Pods-PuddingVideoSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PuddingVideoSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		576AA0A57E52C9CD15A35137AFA051FC /* Pods-PuddingVideoSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PuddingVideoSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D5D66732EE0AD8040794B4945B0A3C3 /* RBLiveVideoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBLiveVideoDelegate.h; sourceTree = "<group>"; };
 		70DF4D95ED50BC0DCB486F81C0EC6028 /* Pods-PuddingVideoSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PuddingVideoSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		7DADA5A41C094BB403BC4B724E116C0D /* Pods-PuddingVideoSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PuddingVideoSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7EE1A3897120AE603584FF2DC0827E2B /* libPuddingVideo.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPuddingVideo.a; path = PuddingVideoSDK/Assets/libPuddingVideo.a; sourceTree = "<group>"; };
-		850B545BAA9014B03989AB2DE9F6B779 /* RBVideoEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBVideoEvent.h; sourceTree = "<group>"; };
 		8C1A179DD89BBA9C59A1657246B5AECD /* RBLoginKit.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = RBLoginKit.bundle; path = PuddingSDK/ios/RooboSDK.embeddedframework/RooboSDK.framework/Versions/A/Resources/RBLoginKit.bundle; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		986222D0F5EC20C01B50E3365A85D00F /* Pods-PuddingVideoSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PuddingVideoSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A32A30BE198FEC31E607D89F5FF7BDAC /* RBLiveVideoClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBLiveVideoClient.h; sourceTree = "<group>"; };
 		A5A156161C7E3898E581C8BDE51040CA /* Pods-PuddingVideoSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PuddingVideoSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AA0404FDCBEC75205AF42C93552184DB /* Pods-PuddingVideoSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PuddingVideoSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AB806340E674306113A5347F88A51F68 /* Pods-PuddingVideoSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PuddingVideoSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -37,7 +37,9 @@
 		BC6818A6AD20D5D3D8AB3C783F6B3896 /* Pods-PuddingVideoSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PuddingVideoSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BF087C7B7C26B86F8DE4DA8D0836527D /* RBVoice.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = RBVoice.bundle; path = PuddingSDK/ios/RooboSDK.embeddedframework/RooboSDK.framework/Versions/A/Resources/RBVoice.bundle; sourceTree = "<group>"; };
 		C0FB33F3B0C1F16877E12722D85E820A /* Pods-PuddingVideoSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PuddingVideoSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		C86EB4FA64D0A8EB53E529AF46A36612 /* RBLiveVideoClient+Config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RBLiveVideoClient+Config.h"; sourceTree = "<group>"; };
 		CA48BACE1EF9051C9AC61A55211AE1F5 /* Pods-PuddingVideoSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PuddingVideoSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		CB31B0A3B1E71CC786B59A0ECC86808A /* RBVideoClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBVideoClient.h; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D074BA5FC5B3E385849F593BA5C206C1 /* MitLoading.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MitLoading.bundle; path = PuddingSDK/ios/RooboSDK.embeddedframework/RooboSDK.framework/Versions/A/Resources/MitLoading.bundle; sourceTree = "<group>"; };
 		D23989EBBAA6CA888EAE344C99473332 /* Pods-PuddingVideoSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PuddingVideoSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -47,7 +49,6 @@
 		E7E97DA639623654341F8CEDCBA9199B /* Pods-PuddingVideoSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PuddingVideoSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		F34AB4B90F38DC33809BD5E1DECCF1C2 /* Pods-PuddingVideoSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PuddingVideoSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F732C2BDD57CDBC1456EEE593B9624C0 /* Pods-PuddingVideoSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PuddingVideoSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F810E226BFD137BF8572BEF051818589 /* RBVideoClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RBVideoClient.h; sourceTree = "<group>"; };
 		FA7A57C430E89E3EB3846EA0D54B44FC /* Pods-PuddingVideoSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PuddingVideoSDK_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +81,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		15F8E79CE976CD13AE4C9F891939CD61 /* PuddingVideoSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A388DE38E870F994EB1B41789AFBDE5E /* Classes */,
+			);
+			name = PuddingVideoSDK;
+			path = PuddingVideoSDK;
+			sourceTree = "<group>";
+		};
 		3CB4D93E14FF0FC8FBDD6DCFF482F7AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				4D836670FC33CB35CE510295F0897B43 /* Frameworks */,
-				EFF8E869CEACEF715792E2594B3DD921 /* PuddingVideoSDK */,
+				15F8E79CE976CD13AE4C9F891939CD61 /* PuddingVideoSDK */,
 			);
 			name = PuddingVideoSDK;
 			path = ../..;
@@ -139,18 +149,6 @@
 				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		7C012EBF9AB583B5BA7D01EDA8BB2AA0 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				A32A30BE198FEC31E607D89F5FF7BDAC /* RBLiveVideoClient.h */,
-				1CA806C8A17279A0A6F803F600A638D5 /* RBLiveVideoDelegate.h */,
-				F810E226BFD137BF8572BEF051818589 /* RBVideoClient.h */,
-				850B545BAA9014B03989AB2DE9F6B779 /* RBVideoEvent.h */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -201,6 +199,19 @@
 			path = "Target Support Files/Pods-PuddingVideoSDK_Tests";
 			sourceTree = "<group>";
 		};
+		A388DE38E870F994EB1B41789AFBDE5E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2E41E744CB7AB3F52C2A0135C554C79E /* RBLiveVideoClient.h */,
+				C86EB4FA64D0A8EB53E529AF46A36612 /* RBLiveVideoClient+Config.h */,
+				6D5D66732EE0AD8040794B4945B0A3C3 /* RBLiveVideoDelegate.h */,
+				CB31B0A3B1E71CC786B59A0ECC86808A /* RBVideoClient.h */,
+				0AE9747F96C548C1C3C6C0A9501326D4 /* RBVideoEvent.h */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		A90AD8F49772C25AE1A40F78D3409AD8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,15 +236,6 @@
 			);
 			name = PuddingSDK;
 			path = PuddingSDK;
-			sourceTree = "<group>";
-		};
-		EFF8E869CEACEF715792E2594B3DD921 /* PuddingVideoSDK */ = {
-			isa = PBXGroup;
-			children = (
-				7C012EBF9AB583B5BA7D01EDA8BB2AA0 /* Classes */,
-			);
-			name = PuddingVideoSDK;
-			path = PuddingVideoSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
