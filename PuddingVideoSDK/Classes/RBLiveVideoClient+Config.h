@@ -23,13 +23,12 @@ typedef enum {
 }RBEnvi;
 
 
-
-bool RBBaseLogEnable = false;
+extern bool RBLogEnable;
 
 
 #define RBLog(format,...)  \
-if(RBBaseLogEnable) \
-printf("\n[%s] %s %s\n", __TIME__, __FUNCTION__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String])\
+if(RBLogEnable) printf("\n[%s] %s %s\n", __TIME__, __FUNCTION__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String])\
+
 
 
 
