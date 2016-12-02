@@ -33,10 +33,10 @@
     videoClient = [RBLiveVideoClient getInstanse:@"appkey" AppID:@"appid" Client:@"pudding"];
     float width = [UIScreen mainScreen].bounds.size.width;
     
-    
+    videoClient.backgroundTime = 10;
     [RBLiveVideoClient setLogModle:RBLogBase];
-    [RBLiveVideoClient userInfo:@"ps:58cb4143bbdfe51eceb4bfe4ea2c27b1" Token:@"9a1fa150b23bb4de0f4d5b4aba3ae2b5"];
-    [RBLiveVideoClient setVideoEnvironment:RBDeveloper];
+//    [RBLiveVideoClient userInfo:@"ps:58cb4143bbdfe51eceb4bfe4ea2c27b1" Token:@"9a1fa150b23bb4de0f4d5b4aba3ae2b5"];
+//    [RBLiveVideoClient setVideoEnvironment:RBDeveloper];
     
     UIView * vi  =[[UIView alloc]initWithFrame:CGRectMake(0, 0, width, 64)];
     vi.backgroundColor = [UIColor colorWithRed:97/255.0 green:212/255.0 blue:255/255.0 alpha:1];

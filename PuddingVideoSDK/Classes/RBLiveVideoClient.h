@@ -90,6 +90,13 @@
  *  摄像头方向是横向 模式是yes
  */
 @property(nonatomic,assign) BOOL    cameraIsLandscape;
+
+/**
+ *  @author 智奎宇, 16-12-02 16:12:20
+ *
+ *  后台连接视频时间，默认CGFLOAT_MAX
+ */
+@property(nonatomic,assign) NSTimeInterval backgroundTime;
 /**
  *  @author 智奎宇, 16-11-23 17:11:38
  *
@@ -102,6 +109,10 @@
  *  @return 视频实例
  */
 + (RBLiveVideoClient *)getInstanse:(NSString *)appkey AppID:(NSString *)appId Client:(NSString *)clientType;
+
+
+
+
 
 
 - (Boolean)working;
