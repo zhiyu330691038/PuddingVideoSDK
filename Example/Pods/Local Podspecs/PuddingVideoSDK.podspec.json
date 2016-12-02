@@ -1,6 +1,6 @@
 {
   "name": "PuddingVideoSDK",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "summary": "北京智能管家视频sdk 静态库.",
   "platforms": {
     "ios": "7.0"
@@ -17,7 +17,7 @@
   },
   "source": {
     "git": "https://github.com/RooboMobile/PuddingVideoSDK.git",
-    "tag": "1.0.1"
+    "tag": "1.0.5"
   },
   "source_files": "PuddingVideoSDK/Classes/**/*",
   "vendored_libraries": "PuddingVideoSDK/Assets/*.a",

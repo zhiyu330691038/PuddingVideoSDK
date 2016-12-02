@@ -1,6 +1,6 @@
 PODS:
   - PuddingSDK (0.0.3)
-  - PuddingVideoSDK (1.0.1)
+  - PuddingVideoSDK (1.0.5)
 
 DEPENDENCIES:
   - PuddingSDK (~> 0.0.3)
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   PuddingSDK: f4c0f3cdb5e798231c1aacad9adfd503f289028a
-  PuddingVideoSDK: b457c27666529f009e853fef90664ecd8bb2df3c
+  PuddingVideoSDK: 18bb981a1d5483e5da3b1aadf16a7037c1c9e2af
 
 PODFILE CHECKSUM: 65a2ca95a1e07f4ea29b25cff838a8b7a03ca44c
 
