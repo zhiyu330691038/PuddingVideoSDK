@@ -34,7 +34,7 @@
     float width = [UIScreen mainScreen].bounds.size.width;
     
     videoClient.backgroundTime = 10;
-    [RBLiveVideoClient setLogModle:RBLogBase];
+    [RBLiveVideoClient setLogModle:RBLogAll];
 //    [RBLiveVideoClient userInfo:@"ps:58cb4143bbdfe51eceb4bfe4ea2c27b1" Token:@"9a1fa150b23bb4de0f4d5b4aba3ae2b5"];
 //    [RBLiveVideoClient setVideoEnvironment:RBDeveloper];
     
